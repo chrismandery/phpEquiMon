@@ -1,0 +1,40 @@
+label
+{
+	cursor: pointer
+}
+
+.racklist
+{
+	border-collapse: collapse
+}
+
+.racklist td
+{
+	border: 1px solid black;
+	font-weight: bold;
+	padding: 3px;
+	text-align: center
+}
+
+.rackrow-header
+{
+	background-color: #BBBBBB;
+	height: 20px
+}
+
+.rackrow-header td
+{
+	white-space: nowrap
+}
+
+.rackrow-dark
+{
+	background-color: #DDDDDD;
+	height: 15px
+}
+
+.rackrow-light
+{
+	background-color: #EEEEEE;
+	height: 15px
+}

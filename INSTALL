@@ -1,0 +1,40 @@
+phpEquiMon (C) 2007 by Christian Mandery
+
+This file is part of phpEquiMon.
+
+phpEquiMon is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+phpEquiMon is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+---
+
+First all of read the COMPLETE phpEquiMon homepage INCLUDING the FAQ!
+
+After reading the homepage:
+
+- Unpack the archive to a temporary folder.
+
+- Copy everything under htdocs/ in a path below your webroot.
+  Rights should be 644 and owner root, group your webserver (usually one of www, apache, apache2, httpd).
+
+- Setup config.php with your details about your desired database backend (use config.example.php as a basis).
+
+- Run install.php from your browser and after success, delete it (otherwise an evil user can reset your database).
+
+- Login using username admin, password admin and change all remaining settings in phpEquiMon's Admin Panel.
+
+- With the stuff under util/ you can setup PXE servers and deploy monequip.example.sh (after modifying it to suit your
+  configuration) to your machines for monitoring.
+
+If you have any problems or questions, feel free to contact me via the SourceForge project tracker/forum or mail.
+
+More documentation will follow with later releases.

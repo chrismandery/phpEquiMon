@@ -1,0 +1,34 @@
+.racklist
+{
+	border-collapse: collapse;
+	page-break-after: always
+}
+
+.racklist td
+{
+	background-color: #FFFFFF !important;
+	border: 2px solid black;
+	font-weight: bold;
+	padding: 3px;
+	text-align: center
+}
+
+.rackrow-header
+{
+	height: 20px
+}
+
+.rackrow-header td
+{
+	white-space: nowrap
+}
+
+.rackrow-dark
+{
+	height: 15px
+}
+
+.rackrow-light
+{
+	height: 15px
+}

@@ -1,0 +1,64 @@
+phpEquiMon 0.2:
+	* Feature: Import function for NIC vendor information [TODO]
+	* Feature: Much better integrated help and documentation on different
+	parts, but especially for PXE booting/the PXE server concept [TODO]
+	* Feature: Database entries may now belong to multiple groups [TODO]
+
+phpEquiMon 0.1.1:
+	* Bugfix: Removed invalid characters from delete link in the list,
+	there was still a bracket from the times when the delete link would
+	show a JavaScript confirmation box.
+
+	* Bugfix: Fixed cloning feature with an ugly hack (just grep for
+	$lastaddid) that needs more care for the next release.
+
+	* Improvement: Added an own dummy exception handler to avoid leaking
+	any information to potential attackers if they were able to trigger an
+	exception somehow (e.g. by trying to deserialize a malicious string).
+
+	* Improvement: Added helpful comments to config.example.php.
+
+	* Improvement: Several improvements/minor bug fixes in list.php.
+
+	* Bugfix: Fixed another bug with the edit form (in the old code, data
+	coming from POST had priority over data from the database which
+	rendered "edit next" useless).
+
+	* Improvement: Improved installation script (multiple small tweaks).
+
+	* Improvement: Removed buggy "Submit on Enter" JavaScript. Most
+	browser do this by themselves anyway.
+
+	* Feature: Allow filtering by "used by" field of a machine (for
+	extended filter mode).
+
+	* Improvement: Room field now features a combo box in the edit form.
+	Internally the combo box is prefixed to the location string.
+
+	* Bugfix: Fixed a major bug that prevented users from emptying fields
+	that were not empty before (caused by unintuitive isset() operation).
+
+	* Improvement: Removed need to have dbdir ending with a slash. The
+	slash is now appended automatically if not present.
+
+	* Bugfix: Do not lowercase vendor names if no vendor logo available.
+
+	* Improvement: Changed font size from 8pt to 9pt.
+
+	* Feature: Provides new mass edit mode for kernel parameter lines.
+	Before this, admins where forced to delete and recreate parameter
+	lines one by one.
+
+	* Improvement: Replaced ctype_* functions with own wrappers to allow
+	phpEquiMon to run on PHP systems without ctype support.
+
+	* Improvement: Slighly changed the footer of the default theme.
+
+	* Improvement: Changed error text for failing cron job in
+	DefaultTheme::printFooter() to be more descriptive.
+
+	* Bugfix: Do not try to call filemtime on dbdir/lastcron in
+	DefaultTheme::printFooter() if it does not exist.
+
+phpEquiMon 0.1:
+	* Release: Initial release on 11 Sep 2007.

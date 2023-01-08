@@ -1,0 +1,207 @@
+p, td
+{
+	color: #333333;
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+	font-size: 9pt
+}
+
+h1
+{
+	color: #0033FF;
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+	font-size: 16pt;
+	font-weight: bold;
+	text-align: center
+}
+
+h2
+{
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+	font-size: 10pt;
+	color: #009966;
+	text-align: center
+}
+
+a
+{
+	color: #336699;
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+	font-size: 9pt;
+	text-decoration: none
+}
+
+select
+{
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+	font-size: 9pt
+}
+
+input
+{
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+	font-size: 9pt
+}
+
+img
+{
+	border: 0
+}
+
+#footer
+{
+	color: gray;
+	font-size: xx-small;
+	padding-top: 50px
+}
+
+.mainlist
+{
+	width: 100%
+}
+
+.mainlist td
+{
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+	padding: 3px;
+	text-align: center
+}
+
+.noborder
+{
+	border: 0px !important
+}
+
+.err
+{
+	color: #FF0000
+}
+
+.infobox
+{
+	background-color: #FFFFCC;
+	border: 1px ridge black;
+	padding: 20px
+}
+
+.listrow-header
+{
+	background-color: #BBBBBB;
+	height: 20px
+}
+
+.listrow-header td
+{
+	font-weight: bold
+}
+
+.listrow-dark
+{
+	background-color: #DDDDDD;
+	height: 50px
+}
+
+.listrow-light
+{
+	background-color: #EEEEEE;
+	height: 50px
+}
+
+.listrow-red
+{
+	background-color: #EECCCC;
+	height: 50px
+}
+
+.listrow-virtual-header
+{
+	background-color: #CCCCDD;
+	height: 20px
+}
+
+.listrow-virtual-header td
+{
+	font-weight: bold
+}
+
+.listrow-virtual-dark
+{
+	background-color: #DDDDEE;
+	height: 50px
+}
+
+.listrow-virtual-light
+{
+	background-color: #EEEEFF;
+	height: 50px
+}
+
+.listrow-virtual-red
+{
+	background-color: #EECCDD;
+	height: 50px
+}
+
+.editlist
+{
+	width: 100%
+}
+
+.editlist td
+{
+	padding: 5px
+}
+
+.navhead
+{
+	background: #EEEEEE;
+	border: 1px solid gray;
+	padding: 0px;
+	width: 100%
+}
+
+.navhead td
+{
+	padding: 5px;
+	text-align: center
+}
+
+.listhead
+{
+	margin: 3px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	width: 100%
+}
+
+.listhead td
+{
+	background-color: #CCCCCC;
+	border: 1px solid black;
+	padding: 3px 10px
+}
+
+.editrow-xdark
+{
+	background-color: #BBBBBB;
+}
+
+.editrow-dark
+{
+	background-color: #DDDDDD;
+}
+
+.editrow-light
+{
+	background-color: #EEEEEE;
+}
+
+.editrow-red
+{
+	background-color: #FF9999;
+}
+
+.editrow-red td
+{
+	color: #990000;
+	font-weight: bold
+}
